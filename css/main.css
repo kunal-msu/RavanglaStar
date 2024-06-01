@@ -1,0 +1,122 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main--section-sectors-districts{
+    /* transform: translate(-50%,-50%); */
+    display:flex;
+    flex-direction: row;
+
+    /* margin: auto auto; */
+    /* margin-left: 1rem; */
+    /* margin-right:2rem; */
+    justify-content: space-around;
+
+    /* align-items: center; */
+    /* align-content: center; */
+    
+}
+
+.main--section-sectors-districts-north{
+    /* background-image: url(); */
+}
+
+.main--section-sectors-districts > *{
+    
+    /* transform:translateY(50%); */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 1; */
+    height:25rem;
+    width: 20rem;
+    /* border: solid 1px black; */
+}
+
+.main--section-text{
+    font-size: 2rem;
+    font-family: "poppins-bold";
+    color: antiquewhite;
+    text-transform: uppercase;
+    /* text-align: left; */
+    z-index: 2;
+}
+
+.main{
+    min-height: 100vh;
+    min-width: 50vh;
+    background-color: bisque;
+}
+
+
+.main--section-sectors-districts > *{
+border-radius: 54px 0px 54px 10px;
+-webkit-border-radius: 54px 0px 54px 10px;
+-moz-border-radius: 54px 0px 54px 10px;
+/* overflow: hidden; */
+
+}
+
+/* .main--section-sectors-card:hover{
+    border-radius: 54px;
+} */
+
+.main--section-sectors-districts-north{
+    background-image: url("../images/tiles/zenith North.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* transform: scale(5); */
+
+}
+
+.main--section-sectors-districts-south{
+    background-image: url("../images/tiles/verdentsouth.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* transform: scale(5); */
+
+}
+
+.main--section-sectors-districts-east{
+    background-image: url("../images/tiles/aurora\ east.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* transform: scale(5); */
+
+}
+
+.main--section-sectors-districts-west{
+    background-image: url("../images/tiles/mystic\ west.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* transform: scale(5); */
+
+}
+
+.main--section-card:hover::before{
+    content: "ARDENT north";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    pointer-events: none; /* Ensure the overlay does not interfere with mouse events */
+    z-index: 5; 
+    transition: 2s;
+}
+
+.main--section-heading{
+    margin:3rem;
+    font-size: 5rem;
+    text-align: center;
+    padding:0;
+    display: none;
+}
