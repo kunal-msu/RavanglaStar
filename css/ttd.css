@@ -1,0 +1,134 @@
+/* things to do--flex1 */
+.ttd{
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+}
+.ttd--flex1{
+    display: flex;    
+}
+
+.ttd--flex1-para{
+    padding-left:50px;
+    border-left:2px solid grey;
+}
+
+/* things to do flex2 */
+.ttd--flex2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+.ttd--flex2--image1{
+    background-image: url("../images/bg-2.jpg");
+    /* background-size: cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 300px;
+    border-radius:20px;
+}
+
+.ttd--flex2--image1--heading{
+    color: #fff;
+    text-align: center;
+    padding-top:35%;
+}
+
+.ttd--flex2--image2{
+    background-image: url("../images/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 300px;
+    border-radius:20px;
+}
+
+.ttd--flex2--image2--heading{
+    color: #fff;
+    text-align: center;
+    padding-top:35%;
+}
+
+
+.ttd--flex2--image3{
+    background-image: url("../images/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 300px;
+    border-radius:20px;
+}
+
+.ttd--flex2--image3--heading{
+    color: #fff;
+    text-align: center;
+    padding-top:35%;
+}
+
+.ttd--flex2--image4{
+    background-image: url("../images/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 300px;
+    border-radius:20px;
+}
+
+.ttd--flex2--image4--heading{
+    color: #fff;
+    text-align: center;
+    padding-top:35%;
+}
+
+/* things to do flex3 */
+.ttd--flex3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px;
+}
+
+.ttd--flex3--image1{
+    background-image: url("../images/bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width:300px;
+    border-radius:25px;
+}
+
+.ttd--flex3--image1--heading{
+    color:#fff;
+    text-align: center;
+    padding-top:35%;
+}
+
+.ttd--flex3--image2{
+    background-image: url("../images/bg-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width:650px;
+    border-radius:25px;
+}
+
+.ttd--flex3--image2--heading{
+    color:#fff;
+    text-align: center;
+    padding-top:35%;
+}
+
+.ttd--flex3--image3{
+    background-image: url("../images/bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width:300px;
+    border-radius:25px;
+}
+
+.ttd--flex3--image3--heading{
+    color:#fff;
+    text-align: center;
+    padding-top:35%;
+}
