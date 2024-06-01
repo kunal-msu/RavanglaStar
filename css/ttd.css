@@ -5,10 +5,15 @@
 }
 .ttd--flex1{
     display: flex;    
+    margin-top:30px;
+}
+
+.ttd--flex1-heading{
+    margin-left:40px;
 }
 
 .ttd--flex1-para{
-    padding-left:50px;
+    padding:30px 30px 0px 30px;
     border-left:2px solid grey;
 }
 
@@ -36,7 +41,7 @@
 }
 
 .ttd--flex2--image2{
-    background-image: url("../images/bg-2.jpg");
+    background-image: url("../images/ttd-destination/culture.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:300px;
@@ -52,7 +57,7 @@
 
 
 .ttd--flex2--image3{
-    background-image: url("../images/bg-2.jpg");
+    background-image: url("../images/ttd-destination/food.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:300px;
@@ -67,7 +72,7 @@
 }
 
 .ttd--flex2--image4{
-    background-image: url("../images/bg-2.jpg");
+    background-image: url("../images/ttd-destination/family.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:300px;
@@ -89,12 +94,12 @@
 }
 
 .ttd--flex3--image1{
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/ttd-destination/gangtok.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:300px;
     width:300px;
-    border-radius:25px;
+    border-radius:18px;
 }
 
 .ttd--flex3--image1--heading{
@@ -109,7 +114,7 @@
     background-repeat: no-repeat;
     height:300px;
     width:650px;
-    border-radius:25px;
+    border-radius:18px;
 }
 
 .ttd--flex3--image2--heading{
@@ -119,12 +124,12 @@
 }
 
 .ttd--flex3--image3{
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/ttd-destination/home\ stay.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:300px;
     width:300px;
-    border-radius:25px;
+    border-radius:18px;
 }
 
 .ttd--flex3--image3--heading{
@@ -157,7 +162,7 @@
 }
 
 .pd--flex2--image1{
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/ttd-destination/destination1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:400px;
@@ -166,7 +171,7 @@
 }
 
 .pd--flex2--image2{
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/ttd-destination/destination2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:400px;
@@ -175,7 +180,7 @@
 }
 
 .pd--flex2--image3{
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/ttd-destination/destination3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:400px;
