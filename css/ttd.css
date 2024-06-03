@@ -1,13 +1,31 @@
-.ttd--flex1 {
-  display: flex;
-  margin-top: 30px
+.ttd{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 4rem;
 }
-.ttd--flex-heading {
+
+.ttd--flex-heading{
+    color:antiquewhite;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: "poppins-bold";
+
+}
+.ttd--flex2 {
+  display: flex;
+  justify-content: center;
+}
+.ttd--flex1{
+    display: flex;
+    flex-grow: (1,1);
+}
+.ttd--flex1-heading {
+  margin-left: 5rem;
   z-index: 1;
-  color: #faebd7;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: poppins-semibold
+  color:#024d27;
+  text-transform:uppercase;
+  text-align: left;
+  font-family: "poppins-bold";
 }
 .ttd--flex1-para {
   padding: 30px 30px 0 30px;
@@ -15,16 +33,17 @@
 }
 .ttd--flex2 {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-grow:(1,1,1,1);
 }
 .ttd--flex2--image1 {
-  background-image: url("../images/bg-2.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/bg-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 300px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .ttd--flex2--image1--heading {
   color: #fff;
@@ -32,12 +51,12 @@
   padding-top: 35%
 }
 .ttd--flex2--image2 {
-  background-image: url("../images/ttd-destination/culture.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%),url("../images/ttd-destination/culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 300px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .ttd--flex2--image2--heading {
   color: #fff;
@@ -45,12 +64,12 @@
   padding-top: 35%
 }
 .ttd--flex2--image3 {
-  background-image: url("../images/ttd-destination/food.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/food.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 300px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .ttd--flex2--image3--heading {
   color: #fff;
@@ -58,12 +77,12 @@
   padding-top: 35%
 }
 .ttd--flex2--image4 {
-  background-image: url("../images/ttd-destination/family.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/family.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 300px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .ttd--flex2--image4--heading {
   color: #fff;
@@ -72,16 +91,23 @@
 }
 .ttd--flex3 {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-grow: (1,2,1);
+  gap:1px;
+}
+
+.ttd--flex-image{
+    width:300px;
+    height:250px;
 }
 .ttd--flex3--image1 {
-  background-image: url("../images/ttd-destination/gangtok.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/gangtok.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 300px;
-  border-radius: 18px
+  border-radius:5px;
 }
 .ttd--flex3--image1--heading {
   color: #fff;
@@ -89,31 +115,33 @@
   padding-top: 35%
 }
 .ttd--flex3--image2 {
-  background-image: url("../images/bg-4.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/bg-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 650px;
-  border-radius: 18px
+  border-radius:5px;;
 }
 .ttd--flex3--image2--heading {
   color: #fff;
   text-align: center;
-  padding-top: 35%
+  padding-top: 35%;
 }
 .ttd--flex3--image3 {
-  background-image: url("../images/ttd-destination/home\ stay.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%),url("../images/ttd-destination/home\ stay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height:250px;
   width: 300px;
-  border-radius: 18px
+  border-radius:5px;
 }
 .ttd--flex3--image3--heading {
   color: #fff;
   text-align: center;
   padding-top: 35%
 }
+
+
 .pd--flex1 {
   display: flex;
   margin: 30px 0 0 40px
@@ -136,7 +164,7 @@
   background-repeat: no-repeat;
   height: 400px;
   width: 420px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .pd--flex2--image2 {
   background-image: url("../images/ttd-destination/destination2.jpg");
@@ -144,15 +172,15 @@
   background-repeat: no-repeat;
   height: 400px;
   width: 420px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .pd--flex2--image3 {
-  background-image: url("../images/ttd-destination/destination3.jpg");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/destination3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
   width: 420px;
-  border-radius: 20px
+  border-radius:5px;
 }
 .util-center {
   display: flex;
@@ -163,7 +191,16 @@
 .util--card-shadow {
   box-shadow: 0 8px 16px rgba(0,0,0,.2),0 12px 40px rgba(0,0,0,.2)
 }
-.ttd--flex-info-card {
+
+.util--card{
+    /* filter: brightness(40%); */
+
+}
+
+.util--padding-top{
+    padding-top:2rem;
+}
+/* .ttd--flex-info-card {
   position: relative;
   top: 100%;
   left: 0;
@@ -176,4 +213,4 @@
 .ttd--flex-info-card:hover::before {
   transform: translateY(0);
   background-color: red
-}
+} */
