@@ -42,8 +42,10 @@
     overflow: hidden;
 }
 .main--section-card:hover  .main--section-text{
-    opacity: 0;
-    transition: opacity 1s ease;
+    /* opacity: 0; */
+    /* border-bottom: 1px solid antiquewhite; */
+    /* padding-bottom: 5px; */
+    transition: border 5s ease;
 }
 
 

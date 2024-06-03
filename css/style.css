@@ -7,6 +7,7 @@
 
 body{
     overflow-x: hidden;
+    /* background-image: url("../images/textile-pattern.jpeg"); */
 }
  
 
@@ -103,7 +104,7 @@ body{
 
 
 .header-nav-logo{
-    width:6rem;
+    width:8rem;
     height:auto;
 }
 
@@ -136,9 +137,10 @@ body{
 }
 
 .header-heading-social-links{
+    display: none;
     font-size: 2rem;
     color:white;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     justify-content:center;
@@ -177,11 +179,11 @@ body{
 .header-heading-title-button{
     font-size: 1.5rem;
     margin-top: 0.5rem;
-    padding:1rem 1rem;
-    border-radius: 5px;
-    background-color:bisque;
+    padding:0.5rem 1rem;
+    border-radius: 30px;
+    background-color:#024d27;
     font-family: "poppins-bold";
-    color:#024d27;
+    color:bisque;
     text-decoration: none;
     
 }
