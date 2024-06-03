@@ -6,10 +6,31 @@
 }
 
 body{
-    /* overflow-x: hidden; */
     overflow-x: hidden;
 }
+ 
 
+.header-heading-services-icons{
+    width: 4rem;
+    filter: brightness(0) saturate(100%) invert(22%) sepia(14%) saturate(4504%) hue-rotate(115deg) brightness(92%) contrast(104%);
+
+
+}
+
+.header-heading-services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-heading-services{
+    margin-top: 2rem;
+    width:40vw; 
+    display: flex;
+    justify-content:space-around;
+}
 .container{
     
     height:100vh;
@@ -17,19 +38,14 @@ body{
     background-color: rgb(147, 194, 161);
     font-family: "poppins-light";
     display: grid;
-    /* gap:1rem 1rem; */
 
     grid-template-columns: 1fr;
     grid-template-rows: max-content 4fr 1fr;
 
 }
 
-.container > * {
-    /* background-color: bisque; */
-}
 
 
-/* CODE BELOW DEFINES THE FONT TO BE USED  */
 @font-face {
     font-family: "poppins-bold";
     src: url("../fonts/Poppins-Bold.ttf");
@@ -45,76 +61,50 @@ body{
     src: url("../fonts/Poppins-Light.ttf");
 }
 
-/* CODE ABOVE DEFINES THE FONT TO BE USED */
-
 .header{
     filter: brightness(130%);
-    background-image: linear-gradient(90deg, rgba(243, 227, 120, 0.568) 0%, rgba(243, 227, 120, 0.384) 49%, rgba(243, 227, 120, 0.367) 100%), url("../images/buddha_park.jpg");
-    
-    /* background-image: url("../images/buddha_park.jpg");
-    border-radius: 25px;
-    filter: brightness(120%);
-    /* backdrop-filter: brightness(20%);
-     */
+    background-image:linear-gradient(90deg, rgba(146,146,151,0.5831466375612745) 0%, rgba(188, 188, 193, 0.589) 53%, rgba(120,122,123,0.692390335040266) 100%), url("../images/buddha_park.jpg");
      -webkit-backdrop-filter: blur(5px); /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
   backdrop-filter: blur(5px);
     min-height:100vh;
     min-width: 100vw;
-    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -moz-background-size: cover; */
-    /* clip-path: ; */
+    -moz-background-size: cover;
 }
 
 .header-nav{
-    /* background-color:rgba(2, 77, 40, 0.487); */
-    /* position: -webkit-sticky; */
     padding-top: 1rem;
     z-index: 1; 
-    /* filter: brightness(%); */
-
-	/* position: sticky; */
     top: 0;
     display: flex;
     justify-content: center;
-    /* margin-right: 7rem; */
     align-items: center;
     font-family: "poppins-SemiBold";
-}
-
-.header-nav-links{
-    
-    
 }
 
 .header-nav-link {
     margin: 1rem;
     padding:0.5rem 0.8rem;
-    /* width:3rem; */
     text-decoration: none;
-    /* border: 2px solid transparent; */
-    /* border-radius: 10%; */
     border-radius: 30px;
+    transition: background 0.7s ease-out;
 }
 
-.header-nav-link:focus{
+.header-nav-link:hover{
     box-sizing: border-box;
     background-color: #024d27;
     color: wheat;
-    /* padding:20px; */
-    /* border: 2px solid trans; */
     border-radius: 30px;
-    transition: 1s;
+    transition: background 0.7s ease-in;
 }
 
+
+
 .header-nav-logo{
-    /* padding-top: 1rem; */
     width:6rem;
     height:auto;
-    /* margin-right: auto; */
-    /* margin-left: 7rem; */
 }
 
 .header-heading{
@@ -135,6 +125,7 @@ body{
     background-size: cover;
     -moz-background-size: cover; */
 }
+
 .header-heading-text-area{
     width:50%;
     display: flex;
@@ -145,7 +136,6 @@ body{
 }
 
 .header-heading-social-links{
-    /* margin-right: 3rem; */
     font-size: 2rem;
     color:white;
     display: flex;
@@ -158,7 +148,6 @@ body{
     font-family: "poppins-bold";
     font-size: 3rem;
     text-align: center;
-    /* display: none; */
 }
 
 
@@ -177,7 +166,7 @@ body{
 .header-heading-social-links-icon:hover{
     color:white;
     background-color:#024d27;
-    transition:background .4s ease-out;
+    transition:background-color .4s ease-out;
 
 }
 
@@ -188,12 +177,10 @@ body{
 .header-heading-title-button{
     font-size: 1.5rem;
     margin-top: 0.5rem;
-    /* border: transparent 0px solid; */
     padding:1rem 1rem;
     border-radius: 5px;
     background-color:bisque;
     font-family: "poppins-bold";
-    /* align-self: flex-start; */
     color:#024d27;
     text-decoration: none;
     
@@ -206,9 +193,6 @@ body{
 
 
 .fa{
-    /* color:red; */
-    /* font-size: ; */
-    /* background-color: antiquewhite; */
     color:inherit;
     position: absolute;
     left:50%;
