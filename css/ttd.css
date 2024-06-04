@@ -201,7 +201,7 @@
 .util--padding-top{
     padding-top:2rem;
 }
-/* .ttd--flex-info-card {
+.ttd--flex-info-card {
   position: relative;
   top: 100%;
   left: 0;
@@ -214,4 +214,59 @@
 .ttd--flex-info-card:hover::before {
   transform: translateY(0);
   background-color: red
-} */
+}
+
+/* popular destination */
+.pd{
+  margin-top:40px;
+}
+
+.pd-flex1-heading{
+  padding-right:20px ;
+}
+
+.pd-flex1-para{
+  padding-left:40px;
+  border-left:2px solid grey;
+}
+
+.pd-flex1{
+  display: flex;
+}
+
+.destination{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top:40px;
+}
+
+.pd-flex1--heading{
+  color:white;
+  text-align: center;
+  padding-top:50%;
+  font-size:40px;
+}
+
+.pd-flex2{
+  background-image: url("../images/ttd-destination/destination1.jpg");
+  background-size: cover;
+  height:350px;
+  width:350px;
+  border-radius:20px;
+}
+
+.pd-flex3{
+  background-image: url("../images/ttd-destination/destination2.jpg");
+  background-size: cover;
+  height:350px;
+  width:350px;
+  border-radius:20px;
+}
+
+.pd-flex4{
+  background-image: url("../images/ttd-destination/destination3.jpg");
+  background-size: cover;
+  height:350px;
+  width:350px;
+  border-radius:20px;
+}
