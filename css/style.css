@@ -149,6 +149,7 @@ body{
 .header-heading-title-text{
     font-family: "poppins-bold";
     font-size: 3rem;
+    text-transform: capitalize;
     text-align: center;
 }
 
