@@ -81,6 +81,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
+    clip-path: url(#curveClip);
+    -webkit-clip-path: url(#curveClip);
 }
 
 .header-nav{
