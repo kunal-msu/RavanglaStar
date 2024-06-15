@@ -17,6 +17,7 @@
 }
 .ttd--flex1{
     display: flex;
+    justify-content: space-evenly;
     flex-grow: (1,1);
 }
 .ttd--flex1-heading {
@@ -33,7 +34,7 @@
 }
 .ttd--flex2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 30px;
   flex-grow:(1,1,1,1);
 }
@@ -41,8 +42,8 @@
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/bg-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 300px;
+  /* height:250px;
+  width: 300px; */
   border-radius:5px;
 }
 .ttd--flex2--image1--heading {
@@ -54,8 +55,8 @@
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%),url("../images/ttd-destination/culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 300px;
+  /* height:250px;
+  width: 300px; */
   border-radius:5px;
 }
 .ttd--flex2--image2--heading {
@@ -67,8 +68,8 @@
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/food.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 300px;
+  /* height:250px;
+  width: 300px; */
   border-radius:5px;
 }
 .ttd--flex2--image3--heading {
@@ -80,8 +81,8 @@
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/family.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 300px;
+  /* height:250px;
+  width: 300px; */
   border-radius:5px;
 }
 .ttd--flex2--image4--heading {
@@ -90,8 +91,8 @@
   padding-top: 35%
 }
 .ttd--flex3 {
-  display: flex;
-  justify-content: space-between;
+  display: none;
+  justify-content: space-evenly;
   margin-top: 40px;
   flex-grow: (1,2,1);
   gap:1px;
@@ -105,8 +106,8 @@
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/gangtok.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 300px;
+  /* height:250px;
+  width: 300px; */
   border-radius:5px;
 }
 .ttd--flex3--image1--heading {
@@ -118,8 +119,8 @@
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/bg-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 650px;
+  /* height:250px;
+  width: 650px; */
   border-radius:5px;;
 }
 .ttd--flex3--image2--heading {
@@ -131,8 +132,8 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.415) 0%, rgba(0, 0, 0, 0.5) 100%),url("../images/ttd-destination/home\ stay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:250px;
-  width: 300px;
+  /* height:250px;
+  width: 300px; */
   border-radius:5px;
 }
 .ttd--flex3--image3--heading {
@@ -162,24 +163,24 @@
   background-image: url("../images/ttd-destination/destination1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
-  width: 420px;
+  /* height: 400px;
+  width: 420px; */
   border-radius:5px;
 }
 .pd--flex2--image2 {
   background-image: url("../images/ttd-destination/destination2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
-  width: 420px;
+  /* height: 400px;
+  width: 420px; */
   border-radius:5px;
 }
 .pd--flex2--image3 {
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/ttd-destination/destination3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
-  width: 420px;
+  /* height: 400px;
+  width: 420px; */
   border-radius:5px;
 }
 
@@ -195,6 +196,14 @@
 
 .util--card{
     /* filter: brightness(40%); */
+    /* background-color:Green; */
+    height: 200px;
+  width: 40vh;
+
+}
+.util--card-extra{
+  height:200px;
+  width:900px;
 
 }
 
@@ -279,33 +288,17 @@
 }
 
 /* footer */
-footer{
-  background-color:#024d27;
-  margin-top:4%;
-  height:300px;
-}
 
-.footer-main{
-  display: flex;
-  justify-content:space-evenly;
-}
 
-.footer-main-contacts{
+
+/* .footer-main-contacts{
   margin-top:3%;
   margin-right:20%;
 }
 
-.footer-main-contacts-icons{
-  height:2rem;  
-  width:2rem;
-  display: flex;
-  margin:20px;
-}
 
-.footer-main-contacts-icons-para{
-  color:#fff;
-  padding-left:20px;
-}
+
+
 
 .footer-flex1-heading{
   padding:40px 0px 20px 0px;
@@ -324,5 +317,5 @@ footer{
   line-height:30px;
   text-align: center;
   color:white;
-}
+} */
 
