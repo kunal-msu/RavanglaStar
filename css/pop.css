@@ -1,0 +1,75 @@
+.pop{
+    margin: 4rem;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    gap:2rem;
+    flex-direction: row;
+  }
+
+.pop-text{
+    /* flex:1; */
+    min-width: 300px;
+    padding:0 2rem;
+    /* flex-basis: auto; */
+}
+
+
+
+.pop-text h2{
+    font-family: "poppins-bold";
+    /* color:red; */
+}
+.pop-text p{
+    text-align: justify;
+}
+  
+  div > div{
+    
+    flex:1;
+  }
+  
+.pop-img{
+
+border:solid 5px grey;
+min-width: 300px;
+
+}
+  
+  .util-animate-up{
+    opacity:0;
+    transform:translate(20px);
+    animation: fadeIn 2s ease-in-out forwards; 
+    
+  }
+  
+  .util-scale-in{
+    animation: scaleIn 2s ease-in-out;
+  }
+
+
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+          transform: translateY(20px); /* Start 20px lower */
+      }
+      100% {
+          opacity: 1;
+          transform: translateY(0); /* End at the original position */
+      }
+  }
+  
+  @keyframes scaleIn {
+      0% {
+          opacity: 0;
+          transform: scale(1.01); /* Start 20px lower */
+      }
+      100% {
+          opacity: 1;
+          transform: scale(1); /* End at the original position */
+      }
+  }
+  
+
+  
