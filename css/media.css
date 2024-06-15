@@ -1,7 +1,25 @@
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 480px) {
+    .header{
+        min-height: 60vh;
+    }
+
+    .header-heading{
+        padding:1px;
+    }
+    .header-heading  .header-heading-services-icons{
+        width:2.5rem;
+
+    }
+
+    .header-heading h1{
+        font-size: 2rem;
+    }
+    .pop{
+        margin: 1rem 1rem;
+    }
     .pop-img{
-        width:4rem;
+        width:2rem;
     }
     .header-nav{
         display: none;

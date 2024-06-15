@@ -1,5 +1,5 @@
 .pop{
-    margin: 4rem;
+    margin: 4rem 10em;
     display:flex;
     justify-content:center;
     align-items:flex-start;
@@ -9,7 +9,7 @@
   }
 
 .pop-text{
-    /* flex:1; */
+    flex:1;
     min-width: 300px;
     padding:0 2rem;
     /* flex-basis: auto; */
@@ -22,16 +22,17 @@
     /* color:red; */
 }
 .pop-text p{
+    margin-top: 1rem;
     text-align: justify;
 }
   
-  div > div{
+  /* div > div{
     
-    flex:1;
-  }
+    
+  } */
   
 .pop-img{
-
+    flex:1;
 border:solid 5px grey;
 min-width: 300px;
 
