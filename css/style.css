@@ -214,3 +214,31 @@ body{
     transform: translate(-50%,-50%);
 }
 
+.reveal-up{
+    animation: revealup 2s ease-in-out;
+}
+
+.reveal-on-spot{
+    animation:revealOnSpot 6s ease-out;
+}
+
+
+@keyframes revealOnSpot{
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes revealup {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Start 20px lower */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* End at the original position */
+    }
+}
