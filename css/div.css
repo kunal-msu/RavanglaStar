@@ -1,19 +1,10 @@
-<<<<<<< Updated upstream
-.conatiner-box{
-    display: grid;
-    /* grid-template-columns:repeat(2, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-template-rows: repeat(2,1fr);
-    grid-row-gap: 1px;
-grid-column-gap: 9px;
-}
 
 .boxes .boxes-image{
      height:400px;
     width:600px;
     margin-left:10%;
     border:2px solid black;
-=======
+}
 
 *{
     padding:0%;
@@ -33,7 +24,7 @@ grid-column-gap: 9px;
 }
 
 .boxes{
-    width:500px;
+    width:650px;
     position: relative;
     margin:10px;
     margin:0px -1rem 1rem -1rem;
@@ -41,16 +32,16 @@ grid-column-gap: 9px;
 
 .boxes-image{
     height:400px;
-    width:450px;
+    width:500px;
     display: block;
     margin: auto;
 }
 
 .content{
     height:400px;
-    width:450px;
+    width:600px;
     top:0;
-    left:1.5rem;
+    left:4rem;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -79,5 +70,4 @@ grid-column-gap: 9px;
     padding-top:10%;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
->>>>>>> Stashed changes
 }
