@@ -1,12 +1,15 @@
 <<<<<<< Updated upstream
 .conatiner-box{
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-columns:repeat(auto(auto-fill, minmax(2, 1fr)));
+    /* grid-template-columns:repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 1px;
+grid-column-gap: 9px;
 }
 
 .boxes .boxes-image{
-    height:400px;
+     height:400px;
     width:600px;
     margin-left:10%;
     border:2px solid black;
